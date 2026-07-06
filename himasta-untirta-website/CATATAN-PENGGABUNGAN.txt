@@ -1,0 +1,63 @@
+CATATAN PENGGABUNGAN WEBSITE HIMASTA UNTIRTA
+
+Versi gabungan ini memakai hasil ZIP terbaru sebagai basis utama, lalu aset/logo dari file yang dikirim pengguna tetap dipertahankan. Alasan: hasil ZIP terbaru berisi revisi terakhir yang lebih lengkap, sedangkan file-file HTML yang dikirim terdeteksi sebagai versi lebih lama pada beberapa bagian.
+
+PERBEDAAN UTAMA
+1. Navbar Kepengurusan
+   - File yang dikirim: dropdown hanya berisi Pengurus Inti, Departemen, Struktur Organisasi.
+   - Hasil ZIP terbaru/gabungan: dropdown berisi Pengurus Inti, Media dan Informasi, Eksternal, Penalaran, Pengembangan Organisasi, Pengembangan Minat dan Bakat, Kewirausahaan, Aspirasi Sosial dan Advokasi, Struktur Organisasi.
+
+2. Navbar Layanan
+   - File yang dikirim: masih memuat Kritik dan Saran.
+   - Hasil ZIP terbaru/gabungan: Kritik dan Saran dihapus; layanan dibuat lebih ringkas menjadi Aspirasi Mahasiswa dan Konsultasi Statistik.
+
+3. Halaman Departemen
+   - File yang dikirim: masih berupa placeholder/konten sementara.
+   - Hasil ZIP terbaru/gabungan: sudah berisi card departemen dan anchor per departemen untuk link dropdown.
+
+4. Halaman Pengurus Inti
+   - File yang dikirim: masih berupa card placeholder.
+   - Hasil ZIP terbaru/gabungan: sudah memakai tampilan pengurus inti, bukan card placeholder besar.
+
+5. Halaman Struktur Organisasi
+   - File yang dikirim: sudah berisi struktur, tetapi navbar dan styling masih versi lama.
+   - Hasil ZIP terbaru/gabungan: struktur organisasi tetap dipertahankan, styling diperbarui, dan sinkron dengan dropdown departemen.
+
+6. Halaman Home/index
+   - File yang dikirim: belum memakai semua revisi terakhir.
+   - Hasil ZIP terbaru/gabungan: sudah memakai hero final, sambutan dengan susunan logo -> teks -> foto, background section tertukar sesuai permintaan, dan section Tentang di Home tidak dipakai.
+
+7. CSS
+   - File yang dikirim: lebih pendek dan belum memuat seluruh styling revisi terakhir.
+   - Hasil ZIP terbaru/gabungan: CSS lebih lengkap untuk dropdown panjang, departemen, struktur organisasi, footer icon, form embed, dan layout revisi.
+
+8. Aset Logo
+   - Logo yang dikirim dan logo dalam ZIP sama-sama dipertahankan di folder assets.
+
+CATATAN
+- File visi-misi.html masih ada sebagai arsip file, tetapi tidak ditampilkan di dropdown Profile.
+- File kritik-saran.html sudah dihapus karena fungsi kritik dan saran digabung ke Aspirasi Mahasiswa.
+- Untuk menjalankan website, ekstrak ZIP lalu buka index.html.
+
+PEMBARUAN TERAKHIR:
+- Menu Kontak dihapus dari navbar karena informasi kontak sudah tersedia di footer.
+- File kritik-saran.html dihapus.
+
+
+UPDATE DEPARTEMEN:
+- Dropdown Kepengurusan sekarang mengarah ke halaman detail masing-masing departemen.
+- Setiap departemen memiliki slot foto sendiri di folder assets/ dengan nama foto-*.svg.
+- Untuk mengganti foto, ubah src pada halaman departemen terkait atau timpa file SVG dengan gambar asli menggunakan nama file yang sama dan sesuaikan ekstensi di HTML bila perlu.
+
+
+REVISI TERBARU:
+- Dropdown Kepengurusan diurutkan: Struktur Organisasi, Pengurus Inti, lalu departemen.
+- Halaman Pengurus Inti tidak memuat BPH; BPH hanya di Struktur Organisasi.
+- Halaman Pengurus Inti diberi slot foto untuk Ketua, Wakil Ketua, Sekretaris, dan Bendahara.
+
+
+UPDATE FOTO DEPARTEMEN DAN PENGURUS INTI:
+- Foto asli sudah dipasang untuk Eksternal, Penalaran, Pengembangan Organisasi, Pengembangan Minat dan Bakat, Kewirausahaan, serta Aspirasi, Sosial dan Advokasi.
+- Media dan Informasi masih memakai placeholder karena foto belum diberikan.
+- Di halaman Pengurus Inti, Ketua Himpunan dan Wakil Ketua Himpunan disiapkan dalam satu slot foto bersama.
+- Sekretaris dan Bendahara tetap memakai slot foto masing-masing.
